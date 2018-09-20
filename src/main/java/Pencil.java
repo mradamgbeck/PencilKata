@@ -76,6 +76,12 @@ public class Pencil {
     }
 
     public String edit(String paper, String wordToInsertAfter, String textToInsert) {
-        return null;
+        int startIndex = paper.indexOf(wordToInsertAfter) + wordToInsertAfter.length();
+        for (int i = 0; i < textToInsert.length(); i++) {
+                paper = paper.substring(0, startIndex + i) +
+                        textToInsert.charAt(i) +
+                        paper.substring(startIndex + i + 1, paper.length());
+        }
+        return paper;
     }
 }
