@@ -76,7 +76,10 @@ public class Pencil {
     }
 
     public String edit(String paper, String wordToInsertAfter, String textToInsert) {
-        int startIndex = paper.indexOf(wordToInsertAfter) + wordToInsertAfter.length();
+        int indexOfPreviousWord = paper.indexOf(wordToInsertAfter);
+        int lengthOfPreviousWord = wordToInsertAfter.length();
+        int startIndex = indexOfPreviousWord + lengthOfPreviousWord;
+        paper = preventOverflow(paper, textToInsert, indexOfPreviousWord, lengthOfPreviousWord);
         for (int i = 0; i < textToInsert.length(); i++) {
             if (paper.charAt(startIndex + i) == ' ') {
                 paper = paper.substring(0, startIndex + i) +
@@ -87,6 +90,19 @@ public class Pencil {
                         "@" +
                         paper.substring(startIndex + i + 1, paper.length());
             }
+        }
+        return paper;
+    }
+
+    private String preventOverflow(String paper, String textToInsert, int indexOfPreviousWord, int lengthOfPreviousWord) {
+        int totalLengthRequired = indexOfPreviousWord + lengthOfPreviousWord + textToInsert.length();
+        boolean overflowWillHappen = totalLengthRequired > paper.length();
+        if(overflowWillHappen){
+            int amountOfOverflow = totalLengthRequired - paper.length();
+            String spaces = "";
+            for(int i = 0 ; i < amountOfOverflow ; i++)
+                spaces = spaces.concat(" ");
+            paper = paper.concat(spaces);
         }
         return paper;
     }

@@ -134,4 +134,13 @@ public class PencilTest {
         paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
         assertEquals("the quickr@@own fox", paper);
     }
+
+    @Test
+    public void editAppendsOnceItReachesTheEndOfTheTextOnThePage() {
+        paper = "The fantastic Mr";
+        String textToInsert = " Mr. fox";
+        String wordToInsertAfter = "fantastic";
+        paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
+        assertEquals("The fantastic @@. fox", paper);
+    }
 }
