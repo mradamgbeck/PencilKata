@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76a6a48-83c6-41a0-9a47-ac05145d9d9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/PencilTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,8 +40,8 @@
           <file leaf-file-name="PencilTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -586,6 +585,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="PencilTest - 2018.09.20 at 12h 25m 06s.xml">
+      <configuration name="PencilTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PencilTest_writeCanWriteASingleLetter - 2018.09.20 at 12h 21m 13s.xml">
       <configuration name="PencilTest.writeCanWriteASingleLetter" configurationId="JUnit" />
     </history-entry>
@@ -645,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

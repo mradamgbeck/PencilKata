@@ -14,17 +14,7 @@ public class PencilTest {
     }
 
     @Test
-    public void writeCanWriteASingleLetter() {
-        Pencil pencil = new Pencil();
-        String paper = "";
-
-        String textToBeWritten = "a";
-        paper = pencil.write(paper, textToBeWritten);
-        assertEquals(textToBeWritten, paper);
-    }
-
-    @Test
-    public void writeCanWriteMultipleLetters() {
+    public void writeCanWriteAString() {
         String textToBeWritten = "abc";
         paper = pencil.write(paper, textToBeWritten);
         assertEquals(textToBeWritten, paper);
