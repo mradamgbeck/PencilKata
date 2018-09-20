@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 public class PencilTest {
     private String paper;
     private Pencil pencil;
-    int originalSharpness;
+    private int originalSharpness;
     private int originalEraserDurability;
 
     @Before
@@ -14,7 +14,8 @@ public class PencilTest {
         paper = "";
         originalSharpness = 100;
         originalEraserDurability = 100;
-        pencil = new Pencil(originalSharpness, originalEraserDurability);
+        int originalLength = 5;
+        pencil = new Pencil(originalSharpness, originalEraserDurability, originalLength);
     }
 
     @Test

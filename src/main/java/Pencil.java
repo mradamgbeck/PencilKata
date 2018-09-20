@@ -4,10 +4,11 @@ public class Pencil {
     private int originalSharpness;
     private int currentLength;
 
-    Pencil(int originalSharpness, int originalEraserDurability) {
+    Pencil(int originalSharpness, int originalEraserDurability, int originalLength) {
         this.originalSharpness = originalSharpness;
         this.currentSharpness = originalSharpness;
         this.currentEraserDurability = originalEraserDurability;
+        this.currentLength = originalLength;
     }
 
     public String write(String paper, String textToBeWritten) {
@@ -67,6 +68,7 @@ public class Pencil {
     }
 
     public void setLength(int newLength){
+        this.currentLength = newLength;
     }
 
     public int getLength(){
