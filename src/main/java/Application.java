@@ -33,7 +33,8 @@ public class Application {
                             "The page says: \n\n" +
                             paper + "\n\n" +
                             "Press 1 to write something,\n" +
-                            "Press 2 to exit."
+                            "Press 2 to erase something,\n" +
+                            "Press 3 to exit."
             );
 
             int userSelection = scanner.nextInt();
@@ -45,6 +46,12 @@ public class Application {
                     paper = pencil.write(paper, textToWrite);
                     break;
                 case 2:
+                    scanner = new Scanner(System.in);
+                    System.out.println("What word would you like to erase?");
+                    String textToErase = scanner.nextLine();
+                    paper = pencil.erase(paper, textToErase);
+                    break;
+                case 3:
                     stillWriting = false;
                     break;
                 default:
