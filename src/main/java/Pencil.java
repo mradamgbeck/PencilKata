@@ -34,4 +34,8 @@ public class Pencil {
     public void setCurrentSharpness(int currentSharpness) {
         this.currentSharpness = currentSharpness;
     }
+
+    public String erase(String paper, String textToBeErased) {
+        return null;
+    }
 }

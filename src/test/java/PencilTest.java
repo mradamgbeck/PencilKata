@@ -79,4 +79,12 @@ public class PencilTest {
         paper = pencil.write(paper, textToBeWritten);
         assertEquals(2, pencil.getCurrentSharpness());
     }
+
+    @Test
+    public void eraseCanEraseAWord() {
+        paper = "one two three four five";
+        String textToBeErased = "four";
+        paper = pencil.erase(paper, textToBeErased);
+        assertEquals("one two three      five", paper);
+    }
 }
