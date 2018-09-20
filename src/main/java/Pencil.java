@@ -74,4 +74,8 @@ public class Pencil {
     public int getLength(){
         return this.currentLength;
     }
+
+    public String edit(String paper, String wordToInsertAfter, String textToInsert) {
+        return null;
+    }
 }

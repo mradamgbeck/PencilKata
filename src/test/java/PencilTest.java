@@ -116,4 +116,13 @@ public class PencilTest {
         paper = pencil.erase(paper, textToBeErased);
         assertEquals("airborne steward      with apples", paper);
     }
+
+    @Test
+    public void editCanInsertAWordAfterAGivenWord() {
+        paper = "the quick       fox";
+        String textToInsert = " brown";
+        String wordToInsertAfter = "quick";
+        paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
+        assertEquals("the quick brown fox", paper);
+    }
 }
