@@ -6,11 +6,13 @@ import static org.junit.Assert.assertEquals;
 public class PencilTest {
     private String paper;
     private Pencil pencil;
+    int originalSharpness;
 
     @Before
     public void setup() {
         paper = "";
-        pencil = new Pencil();
+        originalSharpness = 100;
+        pencil = new Pencil(originalSharpness);
     }
 
     @Test
@@ -34,7 +36,6 @@ public class PencilTest {
 
     @Test
     public void writeDecrementsSharpness() {
-        int originalSharpness = 100;
         String textToBeWritten = "abc";
         pencil.write(paper, textToBeWritten);
         assertEquals(originalSharpness - textToBeWritten.length(), pencil.getCurrentSharpness());
