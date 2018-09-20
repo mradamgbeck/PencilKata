@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b76a6a48-83c6-41a0-9a47-ac05145d9d9a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/Pencil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,15 +27,15 @@
           <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+                <state relative-caret-position="274">
+                  <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
                   <folding>
-                    <element signature="e#98#99#0" expanded="true" />
-                    <element signature="e#155#156#0" expanded="true" />
-                    <element signature="e#857#858#0" expanded="true" />
-                    <element signature="e#896#897#0" expanded="true" />
-                    <element signature="e#957#958#0" expanded="true" />
-                    <element signature="e#1013#1014#0" expanded="true" />
+                    <element signature="e#91#92#0" expanded="true" />
+                    <element signature="e#148#149#0" expanded="true" />
+                    <element signature="e#923#924#0" expanded="true" />
+                    <element signature="e#962#963#0" expanded="true" />
+                    <element signature="e#1023#1024#0" expanded="true" />
+                    <element signature="e#1079#1080#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -48,8 +48,8 @@
           <file leaf-file-name="PencilTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+                <state relative-caret-position="1139">
+                  <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -364,8 +364,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
         <option value="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
       </list>
     </option>
   </component>
@@ -443,7 +443,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PencilTest.writeDoesNotCountSpacesWhenDulleningPencil">
+  <component name="RunManager" selected="JUnit.PencilTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -634,8 +634,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest.writeDoesNotCountSpacesWhenDulleningPencil" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.writeDoesNotCountSpacesWhenDulleningPencil" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.writeWritesSpacesWhenCompletelyDull" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.writeDecrementsSharpnessByTwoForCapitals" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.writeDecrementsSharpness" />
@@ -659,15 +659,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PencilTest - 2018.09.20 at 12h 32m 13s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2018.09.20 at 12h 35m 41s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2018.09.20 at 12h 39m 11s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest - 2018.09.20 at 12h 54m 27s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
@@ -686,6 +677,15 @@
     <history-entry file="PencilTest_writeDecrementsSharpnessByTwoForCapitals - 2018.09.20 at 12h 33m 40s.xml">
       <configuration name="PencilTest.writeDecrementsSharpnessByTwoForCapitals" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PencilTest_writeDoesNotCountSpacesWhenDulleningPencil - 2018.09.20 at 12h 57m 49s.xml">
+      <configuration name="PencilTest.writeDoesNotCountSpacesWhenDulleningPencil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_writeDoesNotCountSpacesWhenDulleningPencil - 2018.09.20 at 13h 12m 45s.xml">
+      <configuration name="PencilTest.writeDoesNotCountSpacesWhenDulleningPencil" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_writeDoesNotCountSpacesWhenDulleningPencil - 2018.09.20 at 13h 13m 23s.xml">
+      <configuration name="PencilTest.writeDoesNotCountSpacesWhenDulleningPencil" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PencilTest_writeWritesSpacesWhenCompletelyDull - 2018.09.20 at 12h 55m 12s.xml">
       <configuration name="PencilTest.writeWritesSpacesWhenCompletelyDull" configurationId="JUnit" />
     </history-entry>
@@ -702,9 +702,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -731,7 +731,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -741,12 +741,12 @@
         <state relative-caret-position="278">
           <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -761,27 +761,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="72" column="5" lean-forward="false" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="274">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
           </folding>
         </state>
       </provider>
