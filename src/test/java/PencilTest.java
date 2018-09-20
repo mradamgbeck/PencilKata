@@ -71,4 +71,12 @@ public class PencilTest {
         paper = pencil.write(paper, textToBeWritten);
         assertEquals(2, pencil.getCurrentSharpness());
     }
+
+    @Test
+    public void writeDoesNotCountNewLinesWhenDulleningPencil() {
+        String textToBeWritten = "\nb\n";
+        pencil.setCurrentSharpness(3);
+        paper = pencil.write(paper, textToBeWritten);
+        assertEquals(2, pencil.getCurrentSharpness());
+    }
 }
