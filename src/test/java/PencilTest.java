@@ -143,4 +143,13 @@ public class PencilTest {
         paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
         assertEquals("The fantastic @@. fox", paper);
     }
+
+    @Test
+    public void editDoesNothingIfWordToInsertAfterDoesNotExist() {
+        paper = "apple orange banana";
+        String textToInsert = "pear";
+        String wordToInsertAfter = "grape";
+        paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
+        assertEquals("apple orange banana", paper);
+    }
 }
