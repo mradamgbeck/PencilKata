@@ -87,4 +87,12 @@ public class PencilTest {
         paper = pencil.erase(paper, textToBeErased);
         assertEquals("one two three      five", paper);
     }
+
+    @Test
+    public void eraseErasesOnlyLastInstanceOfAWord() {
+        paper = "one two three four four five";
+        String textToBeErased = "four";
+        paper = pencil.erase(paper, textToBeErased);
+        assertEquals("one two three four      five", paper);
+    }
 }
