@@ -2,6 +2,7 @@ public class Pencil {
     private int currentEraserDurability;
     private int currentSharpness;
     private int originalSharpness;
+    private int currentLength;
 
     Pencil(int originalSharpness, int originalEraserDurability) {
         this.originalSharpness = originalSharpness;
@@ -63,5 +64,12 @@ public class Pencil {
 
     public int getOriginalSharpness() {
         return this.originalSharpness;
+    }
+
+    public void setLength(int newLength){
+    }
+
+    public int getLength(){
+        return this.currentLength;
     }
 }
