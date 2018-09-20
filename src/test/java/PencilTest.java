@@ -31,4 +31,12 @@ public class PencilTest {
 
         assertEquals(concatenatedTexts, paper);
     }
+
+    @Test
+    public void writeDecrementsSharpness() {
+        int originalSharpness = 100;
+        String textToBeWritten = "abc";
+        pencil.write(paper, textToBeWritten);
+        assertEquals(originalSharpness - textToBeWritten.length(), pencil.getCurrentSharpness());
+    }
 }
