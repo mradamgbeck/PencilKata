@@ -125,4 +125,13 @@ public class PencilTest {
         paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
         assertEquals("the quick brown fox", paper);
     }
+
+    @Test
+    public void editReplacesOverlappedCharactersWithAtSymbols() {
+        paper = "the quick brown fox";
+        String textToInsert = "red";
+        String wordToInsertAfter = "quick";
+        paper = pencil.edit(paper, wordToInsertAfter, textToInsert);
+        assertEquals("the quickr@@own fox", paper);
+    }
 }
