@@ -67,29 +67,32 @@ public class Pencil {
         return this.originalSharpness;
     }
 
-    public void setLength(int newLength){
+    public void setLength(int newLength) {
         this.currentLength = newLength;
     }
 
-    public int getLength(){
+    public int getLength() {
         return this.currentLength;
     }
 
     public String edit(String paper, String wordToInsertAfter, String textToInsert) {
-        int indexOfPreviousWord = paper.indexOf(wordToInsertAfter);
-        int lengthOfPreviousWord = wordToInsertAfter.length();
-        int startIndex = indexOfPreviousWord + lengthOfPreviousWord;
-        paper = preventOverflow(paper, textToInsert, indexOfPreviousWord, lengthOfPreviousWord);
-        for (int i = 0; i < textToInsert.length(); i++) {
-            if (paper.charAt(startIndex + i) == ' ') {
-                paper = paper.substring(0, startIndex + i) +
-                        textToInsert.charAt(i) +
-                        paper.substring(startIndex + i + 1, paper.length());
-            } else {
-                paper = paper.substring(0, startIndex + i) +
-                        "@" +
-                        paper.substring(startIndex + i + 1, paper.length());
+        if (paper.contains(wordToInsertAfter)) {
+            int indexOfPreviousWord = paper.indexOf(wordToInsertAfter);
+            int lengthOfPreviousWord = wordToInsertAfter.length();
+            int startIndex = indexOfPreviousWord + lengthOfPreviousWord;
+            paper = preventOverflow(paper, textToInsert, indexOfPreviousWord, lengthOfPreviousWord);
+            for (int i = 0; i < textToInsert.length(); i++) {
+                if (paper.charAt(startIndex + i) == ' ') {
+                    paper = paper.substring(0, startIndex + i) +
+                            textToInsert.charAt(i) +
+                            paper.substring(startIndex + i + 1, paper.length());
+                } else {
+                    paper = paper.substring(0, startIndex + i) +
+                            "@" +
+                            paper.substring(startIndex + i + 1, paper.length());
+                }
             }
+            return paper;
         }
         return paper;
     }
@@ -97,10 +100,10 @@ public class Pencil {
     private String preventOverflow(String paper, String textToInsert, int indexOfPreviousWord, int lengthOfPreviousWord) {
         int totalLengthRequired = indexOfPreviousWord + lengthOfPreviousWord + textToInsert.length();
         boolean overflowWillHappen = totalLengthRequired > paper.length();
-        if(overflowWillHappen){
+        if (overflowWillHappen) {
             int amountOfOverflow = totalLengthRequired - paper.length();
             String spaces = "";
-            for(int i = 0 ; i < amountOfOverflow ; i++)
+            for (int i = 0; i < amountOfOverflow; i++)
                 spaces = spaces.concat(" ");
             paper = paper.concat(spaces);
         }

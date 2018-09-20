@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76a6a48-83c6-41a0-9a47-ac05145d9d9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Application.class" afterPath="$PROJECT_DIR$/build/classes/java/main/Application.class" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Pencil.class" afterPath="$PROJECT_DIR$/build/classes/java/main/Pencil.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Application.class" afterPath="$PROJECT_DIR$/out/production/classes/Application.class" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/Pencil.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,21 +40,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.51098096">
       <split-first>
         <leaf>
-          <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1054">
+                <state relative-caret-position="391">
                   <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="90" column="76" lean-forward="true" selection-start-line="90" selection-start-column="76" selection-end-line="90" selection-end-column="76" />
+                <state relative-caret-position="380">
+                  <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
                   <folding>
                     <element signature="e#1301#1302#0" expanded="true" />
                     <element signature="e#1340#1341#0" expanded="true" />
@@ -74,10 +64,10 @@
                     <element signature="e#2090#2091#0" expanded="true" />
                     <element signature="e#2276#2277#0" expanded="true" />
                     <element signature="e#2321#2322#0" expanded="true" />
-                    <element signature="e#2364#2365#0" expanded="true" />
-                    <element signature="e#2410#2411#0" expanded="true" />
-                    <element signature="e#2439#2440#0" expanded="true" />
-                    <element signature="e#2480#2481#0" expanded="true" />
+                    <element signature="e#2365#2366#0" expanded="true" />
+                    <element signature="e#2411#2412#0" expanded="true" />
+                    <element signature="e#2441#2442#0" expanded="true" />
+                    <element signature="e#2482#2483#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -90,8 +80,8 @@
           <file leaf-file-name="PencilTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
+                <state relative-caret-position="94">
+                  <caret line="133" column="15" lean-forward="false" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -439,9 +429,9 @@
         <option value="$PROJECT_DIR$/src/main/java/PencilSharpener.java" />
         <option value="$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
       </list>
     </option>
   </component>
@@ -535,7 +525,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist">
+  <component name="RunManager" selected="JUnit.All in PillarAssignment">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -726,8 +716,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest" />
@@ -760,9 +750,6 @@
     <history-entry file="PencilTest - 2018.09.20 at 15h 38m 29s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 28m 27s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 28m 45s.xml">
       <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
     </history-entry>
@@ -780,6 +767,9 @@
     </history-entry>
     <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 38m 22s.xml">
       <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_editDoesNothingIfWordToInsertAfterDoesNotExist - 2018.09.20 at 16h 01m 40s.xml">
+      <configuration name="PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -860,10 +850,10 @@
             <element signature="e#2090#2091#0" expanded="true" />
             <element signature="e#2276#2277#0" expanded="true" />
             <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2410#2411#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,10 +892,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="90" column="76" lean-forward="true" selection-start-line="90" selection-start-column="76" selection-end-line="90" selection-end-column="76" />
+        <state relative-caret-position="380">
+          <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
           <folding>
             <element signature="e#1301#1302#0" expanded="true" />
             <element signature="e#1340#1341#0" expanded="true" />
@@ -915,26 +913,18 @@
             <element signature="e#2090#2091#0" expanded="true" />
             <element signature="e#2276#2277#0" expanded="true" />
             <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
-            <element signature="e#2410#2411#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2482#2483#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="152" column="42" lean-forward="false" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
+        <state relative-caret-position="94">
+          <caret line="133" column="15" lean-forward="false" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
