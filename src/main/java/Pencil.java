@@ -21,7 +21,8 @@ public class Pencil {
     private int calculateAmountToDullen(char character) {
         if (Character.isUpperCase(character))
             return 2;
-        else if (Character.isSpaceChar(character))
+        else if (Character.isSpaceChar(character) ||
+                !String.valueOf(character).matches("."))
             return 0;
         return 1;
     }
