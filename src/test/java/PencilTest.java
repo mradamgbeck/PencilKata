@@ -55,4 +55,12 @@ public class PencilTest {
         paper = pencil.write(paper, textToBeWritten);
         assertEquals("abc   ", paper);
     }
+
+    @Test
+    public void writeStopsWritingIfSharpnessWillBeLessThanZero() {
+        String textToBeWritten = "abC";
+        pencil.setCurrentSharpness(3);
+        paper = pencil.write(paper, textToBeWritten);
+        assertEquals("ab ", paper);
+    }
 }
