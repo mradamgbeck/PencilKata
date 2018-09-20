@@ -54,4 +54,8 @@ public class Pencil {
     public int getCurrentEraserDurability() {
         return this.currentEraserDurability;
     }
+
+    public void setCurrentEraserDurability(int currentEraserDurability) {
+        this.currentEraserDurability = currentEraserDurability;
+    }
 }

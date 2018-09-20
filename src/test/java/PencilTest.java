@@ -106,4 +106,13 @@ public class PencilTest {
         assertEquals(originalEraserDurability - textToBeErased.length(),
                 pencil.getCurrentEraserDurability());
     }
+
+    @Test
+    public void eraseErasesFromEndOfWordBackward() {
+        pencil.setCurrentEraserDurability(5);
+        paper = "airborne stewardesses with apples";
+        String textToBeErased = "stewardesses";
+        paper = pencil.erase(paper, textToBeErased);
+        assertEquals("airborne steward      with apples", paper);
+    }
 }
