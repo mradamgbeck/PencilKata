@@ -6,6 +6,7 @@ public class Application {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean stillWriting = true;
+        PencilSharpener sharpener = new PencilSharpener();
 
         System.out.println(
                 "Welcome to Pencil Simulator\n" +
@@ -34,7 +35,8 @@ public class Application {
                             paper + "\n\n" +
                             "Press 1 to write something,\n" +
                             "Press 2 to erase something,\n" +
-                            "Press 3 to exit."
+                            "Press 3 to sharpen your pencil,\n" +
+                            "Press 4 to exit."
             );
 
             int userSelection = scanner.nextInt();
@@ -52,6 +54,10 @@ public class Application {
                     paper = pencil.erase(paper, textToErase);
                     break;
                 case 3:
+                    System.out.println("Attempting to sharpen pencil");
+                    pencil = sharpener.sharpen(pencil);
+                    break;
+                case 4:
                     stillWriting = false;
                     break;
                 default:
