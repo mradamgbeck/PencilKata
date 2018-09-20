@@ -19,4 +19,16 @@ public class PencilTest {
         paper = pencil.write(paper, textToBeWritten);
         assertEquals(textToBeWritten, paper);
     }
+
+    @Test
+    public void writeDoesNotOverwritePreviousText() {
+        String textToBeWrittenFirst = "abc";
+        String textToBeWrittenSecond = " def";
+        String concatenatedTexts = textToBeWrittenFirst + textToBeWrittenSecond;
+
+        paper = pencil.write(paper, textToBeWrittenFirst);
+        paper = pencil.write(paper, textToBeWrittenSecond);
+
+        assertEquals(concatenatedTexts, paper);
+    }
 }
