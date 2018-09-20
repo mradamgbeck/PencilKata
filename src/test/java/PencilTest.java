@@ -7,12 +7,14 @@ public class PencilTest {
     private String paper;
     private Pencil pencil;
     int originalSharpness;
+    private int originalEraserDurability;
 
     @Before
     public void setup() {
         paper = "";
         originalSharpness = 100;
-        pencil = new Pencil(originalSharpness);
+        originalEraserDurability = 100;
+        pencil = new Pencil(originalSharpness, originalEraserDurability);
     }
 
     @Test
@@ -94,5 +96,14 @@ public class PencilTest {
         String textToBeErased = "four";
         paper = pencil.erase(paper, textToBeErased);
         assertEquals("one two three four      five", paper);
+    }
+
+    @Test
+    public void eraseDegradesEraserDurability() {
+        paper = "some text";
+        String textToBeErased = "some";
+        paper = pencil.erase(paper, textToBeErased);
+        assertEquals(originalEraserDurability - textToBeErased.length(),
+                pencil.getCurrentEraserDurability());
     }
 }

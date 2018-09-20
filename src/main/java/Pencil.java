@@ -1,8 +1,10 @@
 public class Pencil {
+    private final int currentEraserDurability;
     private int currentSharpness;
 
-    Pencil(int originalSharpness) {
+    Pencil(int originalSharpness, int originalEraserDurability) {
         this.currentSharpness = originalSharpness;
+        this.currentEraserDurability = originalEraserDurability;
     }
 
     public String write(String paper, String textToBeWritten) {
@@ -46,5 +48,9 @@ public class Pencil {
                 0, index) +
                 spaces +
                 paper.substring(index + textToBeErased.length());
+    }
+
+    public int getCurrentEraserDurability() {
+        return this.currentEraserDurability;
     }
 }
