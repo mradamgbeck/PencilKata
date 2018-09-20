@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76a6a48-83c6-41a0-9a47-ac05145d9d9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/Pencil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.txt" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Pencil.class" afterPath="$PROJECT_DIR$/build/classes/java/main/Pencil.class" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,61 +50,28 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51098096">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Pencil.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#1301#1302#0" expanded="true" />
-                    <element signature="e#1340#1341#0" expanded="true" />
-                    <element signature="e#1401#1402#0" expanded="true" />
-                    <element signature="e#1457#1458#0" expanded="true" />
-                    <element signature="e#2039#2040#0" expanded="true" />
-                    <element signature="e#2090#2091#0" expanded="true" />
-                    <element signature="e#2276#2277#0" expanded="true" />
-                    <element signature="e#2321#2322#0" expanded="true" />
-                    <element signature="e#2365#2366#0" expanded="true" />
-                    <element signature="e#2411#2412#0" expanded="true" />
-                    <element signature="e#2441#2442#0" expanded="true" />
-                    <element signature="e#2482#2483#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="PencilTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
-                  <caret line="133" column="15" lean-forward="false" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -432,6 +412,7 @@
         <option value="$PROJECT_DIR$/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/src/test/java/PencilTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
+        <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
   </component>
@@ -465,37 +446,6 @@
             <path>
               <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PillarAssignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PencilKata" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -567,26 +517,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="PencilSharpenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="PillarAssignment" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PencilSharpenerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="PencilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="PillarAssignment" />
@@ -635,6 +565,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PencilTest" />
       <option name="METHOD_NAME" value="editDoesNothingIfWordToInsertAfterDoesNotExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PillarAssignment" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PencilTest" />
+      <option name="METHOD_NAME" value="editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -709,18 +659,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PencilTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" />
       </list>
     </recent_temporary>
   </component>
@@ -747,29 +697,29 @@
     <history-entry file="All_in_PillarAssignment - 2018.09.20 at 15h 58m 55s.xml">
       <configuration name="All in PillarAssignment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_PillarAssignment - 2018.09.20 at 16h 03m 31s.xml">
+      <configuration name="All in PillarAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_PillarAssignment - 2018.09.20 at 16h 07m 05s.xml">
+      <configuration name="All in PillarAssignment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_PillarAssignment - 2018.09.20 at 16h 08m 51s.xml">
+      <configuration name="All in PillarAssignment" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PencilTest - 2018.09.20 at 15h 38m 29s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 28m 45s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 35m 01s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 35m 21s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 37m 58s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 38m 04s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest_editAppendsOnceItReachesTheEndOfTheTextOnThePage - 2018.09.20 at 15h 38m 22s.xml">
-      <configuration name="PencilTest.editAppendsOnceItReachesTheEndOfTheTextOnThePage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PencilTest_editDoesNothingIfWordToInsertAfterDoesNotExist - 2018.09.20 at 16h 01m 40s.xml">
       <configuration name="PencilTest.editDoesNothingIfWordToInsertAfterDoesNotExist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt - 2018.09.20 at 16h 06m 21s.xml">
+      <configuration name="PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt - 2018.09.20 at 16h 06m 46s.xml">
+      <configuration name="PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PencilTest_editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt - 2018.09.20 at 16h 06m 58s.xml">
+      <configuration name="PencilTest.editInsertsAfterFirstWordToInsertAfterWithSpaceAfterIt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -789,7 +739,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2420886" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -884,26 +834,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pencil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="21" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="111">
+          <caret line="91" column="43" lean-forward="false" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
           <folding>
             <element signature="e#1301#1302#0" expanded="true" />
             <element signature="e#1340#1341#0" expanded="true" />
@@ -923,11 +865,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PencilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="133" column="15" lean-forward="false" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
+        <state relative-caret-position="383">
+          <caret line="150" column="9" lean-forward="false" selection-start-line="150" selection-start-column="9" selection-end-line="150" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>

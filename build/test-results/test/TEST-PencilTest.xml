@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PencilTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2018-09-20T20:10:03" hostname="PYOOTER" time="0.004">
+  <properties/>
+  <testcase name="writeDoesNotOverwritePreviousText" classname="PencilTest" time="0.0"/>
+  <testcase name="eraseDegradesEraserDurability" classname="PencilTest" time="0.0"/>
+  <testcase name="writeDecrementsSharpness" classname="PencilTest" time="0.0"/>
+  <testcase name="editCanInsertAWordAfterAGivenWord" classname="PencilTest" time="0.0"/>
+  <testcase name="writeStopsWritingIfSharpnessWillBeLessThanZero" classname="PencilTest" time="0.0"/>
+  <testcase name="writeDecrementsSharpnessByTwoForCapitals" classname="PencilTest" time="0.0"/>
+  <testcase name="writeDoesNotCountSpacesWhenDulleningPencil" classname="PencilTest" time="0.0"/>
+  <testcase name="editDoesNothingIfWordToInsertAfterDoesNotExist" classname="PencilTest" time="0.0"/>
+  <testcase name="eraseErasesOnlyLastInstanceOfAWord" classname="PencilTest" time="0.0"/>
+  <testcase name="writeWritesSpacesWhenCompletelyDull" classname="PencilTest" time="0.0"/>
+  <testcase name="editReplacesOverlappedCharactersWithAtSymbols" classname="PencilTest" time="0.0"/>
+  <testcase name="writeCanWriteAString" classname="PencilTest" time="0.0"/>
+  <testcase name="writeDoesNotCountNewLinesWhenDulleningPencil" classname="PencilTest" time="0.0"/>
+  <testcase name="eraseCanEraseAWord" classname="PencilTest" time="0.0"/>
+  <testcase name="eraseErasesFromEndOfWordBackward" classname="PencilTest" time="0.0"/>
+  <testcase name="editAppendsOnceItReachesTheEndOfTheTextOnThePage" classname="PencilTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
