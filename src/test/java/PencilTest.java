@@ -47,4 +47,12 @@ public class PencilTest {
         pencil.write(paper, textToBeWritten);
         assertEquals(originalSharpness - textToBeWritten.length() * 2, pencil.getCurrentSharpness());
     }
+
+    @Test
+    public void writeWritesSpacesWhenCompletelyDull() {
+        String textToBeWritten = "abcdef";
+        pencil.setCurrentSharpness(3);
+        paper = pencil.write(paper, textToBeWritten);
+        assertEquals("abc   ", paper);
+    }
 }
