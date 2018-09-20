@@ -40,4 +40,11 @@ public class PencilTest {
         pencil.write(paper, textToBeWritten);
         assertEquals(originalSharpness - textToBeWritten.length(), pencil.getCurrentSharpness());
     }
+
+    @Test
+    public void writeDecrementsSharpnessByTwoForCapitals() {
+        String textToBeWritten = "ABC";
+        pencil.write(paper, textToBeWritten);
+        assertEquals(originalSharpness - textToBeWritten.length() * 2, pencil.getCurrentSharpness());
+    }
 }
