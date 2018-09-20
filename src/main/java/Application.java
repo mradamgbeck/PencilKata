@@ -35,8 +35,9 @@ public class Application {
                             paper + "\n\n" +
                             "Press 1 to write something,\n" +
                             "Press 2 to erase something,\n" +
-                            "Press 3 to sharpen your pencil,\n" +
-                            "Press 4 to exit."
+                            "Press 3 to insert a word,\n" +
+                            "Press 4 to sharpen your pencil.\n" +
+                            "Press 5 to exit."
             );
 
             int userSelection = scanner.nextInt();
@@ -49,15 +50,23 @@ public class Application {
                     break;
                 case 2:
                     scanner = new Scanner(System.in);
-                    System.out.println("What word would you like to erase?");
+                    System.out.println("Which word would you like to erase?");
                     String textToErase = scanner.nextLine();
                     paper = pencil.erase(paper, textToErase);
                     break;
                 case 3:
+                    scanner = new Scanner(System.in);
+                    System.out.println("Which word would you like to insert?");
+                    String newWord = scanner.nextLine();
+                    System.out.println("After which word would you like to insert?");
+                    String wordToInsertAfter = scanner.nextLine();
+                    paper = pencil.edit(paper, wordToInsertAfter, newWord);
+                    break;
+                case 4:
                     System.out.println("Attempting to sharpen pencil");
                     pencil = sharpener.sharpen(pencil);
                     break;
-                case 4:
+                case 5:
                     stillWriting = false;
                     break;
                 default:
