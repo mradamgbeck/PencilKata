@@ -7,24 +7,38 @@ public class Application {
         Scanner scanner = new Scanner(System.in);
         boolean stillWriting = true;
         PencilSharpener sharpener = new PencilSharpener();
+        int sharpness;
+        int eraserDurability;
+        int length;
+        String selectWholeNumberMessage = "Invalid input, please select a valid whole number.";
 
         System.out.println(
                 "Welcome to Pencil Simulator\n" +
                         "Enter a value for your pencil's sharpness.\n"
         );
-        int sharpness = scanner.nextInt();
+        try {
+            sharpness = scanner.nextInt();
+        } catch(Exception e){
+            System.out.println(selectWholeNumberMessage);
+            return;
+        }
 
-        System.out.println(
-                "Welcome to Pencil Simulator\n" +
-                        "Enter a value for your pencil's eraser durability.\n"
-        );
-        int eraserDurability = scanner.nextInt();
+        System.out.println("Thank you. Enter a value for your pencil's eraser durability.\n");
+        try {
+            eraserDurability = scanner.nextInt();
+        } catch(Exception e){
+            System.out.println(selectWholeNumberMessage);
+            return;
+        }
 
-        System.out.println(
-                "Thank you.\n" +
-                        "Enter a value for your pencil's length.\n"
-        );
-        int length = scanner.nextInt();
+        System.out.println("Thank you. Enter a value for your pencil's length.\n");
+        try {
+            length = scanner.nextInt();
+        } catch(Exception e){
+            System.out.println(selectWholeNumberMessage);
+            return;
+        }
+
         Pencil pencil = new Pencil(sharpness, length, eraserDurability);
 
         while (stillWriting) {
@@ -40,7 +54,14 @@ public class Application {
                             "Press 5 to exit."
             );
 
-            int userSelection = scanner.nextInt();
+            int userSelection;
+            try {
+                userSelection = scanner.nextInt();
+            } catch(Exception e){
+                System.out.println(selectWholeNumberMessage);
+                return;
+            }
+
             switch (userSelection) {
                 case 1:
                     scanner = new Scanner(System.in);
