@@ -1,5 +1,5 @@
 public class Pencil {
-    private final int currentEraserDurability;
+    private int currentEraserDurability;
     private int currentSharpness;
 
     Pencil(int originalSharpness, int originalEraserDurability) {
@@ -38,16 +38,17 @@ public class Pencil {
     }
 
     public String erase(String paper, String textToBeErased) {
-        String spaces = "";
-        for (int i = 0; i < textToBeErased.length(); i++) {
-            spaces = spaces.concat(" ");
+        int indexOfText = paper.lastIndexOf(textToBeErased);
+        for (int i = textToBeErased.length(); i > 0; i--) {
+            if (this.currentEraserDurability > 0) {
+                this.currentEraserDurability -= 1;
+                paper = paper.substring(
+                        0, indexOfText + i - 1) +
+                        " " +
+                        paper.substring(indexOfText + i, paper.length());
+            }
         }
-
-        int index = paper.lastIndexOf(textToBeErased);
-        return paper.substring(
-                0, index) +
-                spaces +
-                paper.substring(index + textToBeErased.length());
+        return paper;
     }
 
     public int getCurrentEraserDurability() {
