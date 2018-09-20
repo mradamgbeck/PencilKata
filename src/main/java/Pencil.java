@@ -36,6 +36,15 @@ public class Pencil {
     }
 
     public String erase(String paper, String textToBeErased) {
-        return null;
+        String spaces = "";
+        for (int i = 0; i < textToBeErased.length(); i++) {
+            spaces = spaces.concat(" ");
+        }
+
+        int index = paper.lastIndexOf(textToBeErased);
+        return paper.substring(
+                0, index) +
+                spaces +
+                paper.substring(index + textToBeErased.length());
     }
 }
