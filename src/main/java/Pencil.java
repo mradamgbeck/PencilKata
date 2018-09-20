@@ -1,7 +1,7 @@
 public class Pencil {
     private int currentEraserDurability;
     private int currentSharpness;
-    private Object originalSharpness;
+    private int originalSharpness;
 
     Pencil(int originalSharpness, int originalEraserDurability) {
         this.originalSharpness = originalSharpness;
@@ -61,7 +61,7 @@ public class Pencil {
         this.currentEraserDurability = currentEraserDurability;
     }
 
-    public Object getOriginalSharpness() {
+    public int getOriginalSharpness() {
         return this.originalSharpness;
     }
 }

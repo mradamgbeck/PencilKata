@@ -1,5 +1,6 @@
 public class PencilSharpener {
-    public void sharpen(Pencil mockPencil) {
-
+    public Pencil sharpen(Pencil pencil) {
+        pencil.setCurrentSharpness(pencil.getOriginalSharpness());
+        return pencil;
     }
 }
