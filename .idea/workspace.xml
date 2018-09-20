@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76a6a48-83c6-41a0-9a47-ac05145d9d9a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pencil.java" afterPath="$PROJECT_DIR$/src/main/java/Pencil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PencilSharpener.java" afterPath="$PROJECT_DIR$/src/main/java/PencilSharpener.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PencilTest.java" afterPath="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java" afterPath="$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -94,11 +93,9 @@
           <file leaf-file-name="PencilSharpenerTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="663">
+                  <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -441,10 +438,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pencil.java" />
         <option value="$PROJECT_DIR$/src/main/java/PencilSharpener.java" />
         <option value="$PROJECT_DIR$/src/test/java/PencilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java" />
       </list>
     </option>
   </component>
@@ -537,7 +534,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in PillarAssignment">
+  <component name="RunManager" selected="JUnit.PencilSharpenerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -728,8 +725,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in PillarAssignment" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest.sharpenDecrementsPencilLength" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.PencilSharpenerTest.sharpenResetsPencilSharpnessToOriginalSharpness" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.PencilTest.eraseErasesFromEndOfWordBackward" />
@@ -756,6 +753,9 @@
     <history-entry file="All_in_PillarAssignment - 2018.09.20 at 13h 46m 24s.xml">
       <configuration name="All in PillarAssignment" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_PillarAssignment - 2018.09.20 at 14h 23m 49s.xml">
+      <configuration name="All in PillarAssignment" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PencilSharpenerTest - 2018.09.20 at 14h 13m 05s.xml">
       <configuration name="PencilSharpenerTest" configurationId="JUnit" />
     </history-entry>
@@ -767,9 +767,6 @@
     </history-entry>
     <history-entry file="PencilSharpenerTest_sharpenResetsPencilSharpnessToOriginalSharpness - 2018.09.20 at 14h 11m 36s.xml">
       <configuration name="PencilSharpenerTest.sharpenResetsPencilSharpnessToOriginalSharpness" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PencilTest - 2018.09.20 at 13h 23m 48s.xml">
-      <configuration name="PencilTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PencilTest - 2018.09.20 at 13h 32m 23s.xml">
       <configuration name="PencilTest" configurationId="JUnit" />
@@ -796,9 +793,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -929,11 +926,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PencilSharpenerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="663">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

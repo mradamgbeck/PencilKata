@@ -3,6 +3,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
+
+import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -34,5 +36,12 @@ public class PencilSharpenerTest {
     public void sharpenDecrementsPencilLength() {
         sharpener.sharpen(mockPencil);
         verify(mockPencil).setLength(originalLength - 1);
+    }
+
+    @Test
+    public void sharpenDoesNotResetSharpnessIfLengthIsZero() {
+        when(mockPencil.getLength()).thenReturn(0);
+        sharpener.sharpen(mockPencil);
+        verify(mockPencil, never()).setCurrentSharpness(originalSharpness);
     }
 }
