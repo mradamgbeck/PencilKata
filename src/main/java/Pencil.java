@@ -1,7 +1,7 @@
 public class Pencil {
     private int currentSharpness;
 
-    public Pencil(int originalSharpness) {
+    Pencil(int originalSharpness) {
         this.currentSharpness = originalSharpness;
     }
 

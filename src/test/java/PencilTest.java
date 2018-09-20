@@ -63,4 +63,12 @@ public class PencilTest {
         paper = pencil.write(paper, textToBeWritten);
         assertEquals("ab ", paper);
     }
+
+    @Test
+    public void writeDoesNotCountSpacesWhenDulleningPencil() {
+        String textToBeWritten = "  b  ";
+        pencil.setCurrentSharpness(3);
+        paper = pencil.write(paper, textToBeWritten);
+        assertEquals(2, pencil.getCurrentSharpness());
+    }
 }
